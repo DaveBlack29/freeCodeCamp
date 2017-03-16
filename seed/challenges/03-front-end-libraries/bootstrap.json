@@ -110,6 +110,18 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Verwende sich selbst anpassendes Design mit Bootstrap Fluid Containern",
+          "description": [
+            "Im HTML5- und CSS-Abschnitt von FreeCodeCamp haben wir eine Cat Photo App aufgebaut. Nun lasst uns zu ihr zurückkehren. Dieses Mal werden wir sie mit dem beliebten Bootstrap responsive CSS framework gestalten.",
+            "Bootstrap findet heraus, wie groß dein Bildschirm ist und passt deine HTML Elemente entsprechend an. Daher der Name <code>Responsive Design</code> (sich selbst anpassendes Design).",
+            "Mit Responsive Design besteht keine Notwendigkeit mehr, eine mobile Version deiner Website zu entwerfen. Sie sieht auf allen Bildschirmen gut aus.",
+            "Du kannst Bootstrap zu jeder App hinzufügen, indem du den folgenden Code an den Anfang deiner HTML hinzufügst:",
+            "<code>&#60;link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css\"/&#62;</code>",
+            "In diesem Fall haben wir diesen für dich bereits hinter den Kulissen hinzugefügt.",
+            "Um loszulegen, sollten wir unseren ganzen HTML-Code in einem <code>div</code> Element mit der Klasse <code>container-fluid</code> verschachteln."
+          ]
+        },
         "es": {
           "title": "Usa diseño adaptativo con los contenedores fluidos de Bootstrap",
           "description": [
@@ -212,6 +224,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Mach Bilder Mobile Responsive",
+          "description": [
+            "Füge zunächst ein neues Bild unter dem vorhandenen ein. Setze hierfür das <code>src</src> Attribut auf <code>https://bit.ly/fcc-running-cats</code>.",
+            "Es wäre toll, wenn dieses Bild exakt die Breite deines Smartphones haben könnte.",
+            "Zum Glück brauchst du mit Bootstrap nur die Klasse <code>img-responsive</code> zu deinem Bild hinzufügen. Mach das, und das Bild sollte perfekt auf die Breite deiner Seite passen."
+          ]
+        },
         "es": {
           "title": "Haz que las imágenes sean adaptativas en dispositivos móviles",
           "description": [
@@ -223,8 +243,6 @@
         "fr": {
           "title": "Rendre des images adaptatives aux appareils mobiles",
           "description": [
-            "It would be great if this image could be exactly the width of our phone's screen.",
-            "Fortunately, with Bootstrap, all we need to do is add the <code>img-responsive</code> class to your image. Do this, and the image should perfectly fit the width of your page.",
             "D'abord, ajoutez une nouvelle image en dessous de celle qui eiste dejà. Changez l'attribut <code>src</src> en <code>https://bit.ly/fcc-running-cats</code>.",
             "Ce serait absolument super si notre image pouvait être exactement de la largeur de l'écran du téléphone.",
             "Heureusement, avec Bootstrap, il faut seulement ajouter la classe <code>img-responsive</code> à notre image. Faites le, et l'image devrait s'ajuster parfaitement à la largeur de la page."
@@ -306,6 +324,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Zentriere Text mit Bootstrap",
+          "description": [
+            "Jetzt, wo du Bootstrap verwendest, kannst du dein Überschrift Element zentrieren, dass es besser aussieht. Alles was du dafür tun musst, ist die Klasse <code>text-center</code> zu deinem <code>h2</code> Element hinzufügen.",
+            "Denk daran, dass du mehrere Klassen zu demselben Element hinzufügen kannst, indem du sie durch ein Leerzeichen wie folgt trennst:",
+            "<code>&#60h2 class=\"red-text text-center\"&#62dein Text&#60/h2&#62</code>"
+          ]
+        },
         "es": {
           "title": "Centra el texto con Bootstrap",
           "description": [
@@ -399,6 +425,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle einen Bootstrap Button(Schaltfläche)",
+          "description": [
+            "Bootstrap besitzt eigene Styles für <code>button</code> Elemente, die viel besser aussehen als die einfachen der HTML.",
+            "Erstelle ein neues <code>button</code> Element unterhalb deines großen Kätzchenfotos. Gib ihm die Klasse <code>btn</code> und den Text \"Like\"."
+          ]
+        },
         "es": {
           "title": "Crea un botón con Bootstrap",
           "description": [
@@ -498,6 +531,21 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle einen Bootstrap Button als Block-Element",
+          "description": [
+            "Normalerweise sind deine <code>button</code> Elemente mit der Klasse <code>btn</code> nur so breit wie der Text, den sie enthalten. Zum Beispiel:",
+            "<code>&lt;button class=\"btn\"&gt;Soumettre&lt;/button&gt;</code>",
+            "Dieser Button wäre nur so breit wie das Wort \"Submit\".",
+            "<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>Submit</button>",
+            "Indem du dem Button die Klasse <code>btn-block</code> hinzufügst, erstreckt er sich über den gesamten horizontalen Bereich deiner Seite. Alle darauffolgenden Elemente, springen auf eine \"neue Zeile\" unter dem Block.",
+            "<code>&lt;button class=\"btn btn-block\"&gt;Submit&lt;/button&gt;</code>",
+            "Dieser Button würde 100% der verfügbaren Breite einnehmen.",
+            "<button class='btn btn-block' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>Submit</button>",
+            "Beachte, dass die Buttons trotzdem noch die Klasse <code>btn</code> benötigen.",
+            "Füge deinem Bootstrap Button die Klasse <code>btn-block</code> hinzu."
+          ]
+        },
         "es": {
           "title": "Crea un elemento botón de bloque con Bootstrap",
           "description": [
@@ -516,13 +564,13 @@
         "fr": {
           "title": "Créer un bouton bloc Bootstrap",
           "description": [
-            "Normalement , vos éléments de <code>button</code> avec une classe de <code>btn</code> ne sont aussi larges que le texte qu'ils contiennent . Par exemple:",
+            "Normalement, vos éléments de <code>button</code> avec une classe de <code>btn</code> ne sont aussi larges que le texte qu'ils contiennent. Par exemple:",
             "<code>&lt;button class=\"btn\"&gt;Soumettre&lt;/button&gt;</code>",
-            "Ce bouton ne serait plus large que le mot \"Soumettre\" .",
+            "Ce bouton ne serait plus large que le mot \"Soumettre\".",
             "<button class='btn' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>Soumettre</button>",
-            "En leur faisant bloquer les éléments avec la classe supplémentaire de <code>btn-block</code>, votre bouton étirer pour remplir tout l'espace horizontal de votre page et tous les éléments suivants, il coulera sur une \"nouvelle ligne\" en dessous du bloc .",
+            "En leur faisant bloquer les éléments avec la classe supplémentaire de <code>btn-block</code>, votre bouton étirer pour remplir tout l'espace horizontal de votre page et tous les éléments suivants, il coulera sur une \"nouvelle ligne\" en dessous du bloc.",
             "<code>&lt;button class=\"btn btn-block\"&gt;Soumettre&lt;/button&gt;</code>",
-            "Ce bouton prendrait 100% de la largeur disponible .",
+            "Ce bouton prendrait 100% de la largeur disponible.",
             "<button class='btn btn-block' style='background-color: rgb(0, 100, 0);  color: rgb(255, 255, 255);'>Soumettre</button>",
             "Notez que ces boutons ont toujours besoin de la classe <code>btn</code>",
             "Ajoutez la classe Bootstrap <code>btn-block</code> à votre bouton Bootstrap."
@@ -606,6 +654,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erfahre den Geschmack der Bootstrap Button Farbenbreite",
+          "description": [
+            "Die Klasse <code>btn-primary</code> ist die Hauptfarbe, die du in deiner App verwenden wirst. Sie ist nützlich für die Hervorhebung von Aktionen, die dein Benutzer durchführen soll.",
+            "Füge die Klasse <code>btn-primary</code> von Bootstrap deinem Button hinzu.",
+            "Beachte, dass der Button immernoch die Klassen <code>btn</code> und <code>btn-block</code> benötigt."
+          ]
+        },
         "es": {
           "title": "Prueba el arcoíris de colores para botones que te ofrece Bootstrap",
           "description": [
@@ -701,6 +757,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Mach auf optionale Aktionen mit btn-info aufmerksam",
+          "description": [
+            "Bootstrap beinhaltet mehrere vordefinierte Farben für Buttons. Die Klasse <code>btn-info</code> wird verwendet, um die Aufmerksamkeit auf optionale Aktionen zu richten, die der Benutzer durchführen kann.",
+            "Erstelle einen neuen Bootstrap-Blocklevel Button unterhalb deines \"Like\" Buttons mit dem Text \"Info\" und füge ihm die Klassen <code>btn-info</code> und <code>btn-block</code> hinzu.",
+            "Beachte, dass die Buttons immernoch die Klassen <code>btn</code> und <code>btn-block</code> benötigen."
+          ]
+        },
         "es": {
           "title": "Señala acciones opcionales con botones informativos",
           "description": [
@@ -797,6 +861,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Warne deine Nutzer vor einer gefährlichen Aktion mit btn-danger",
+          "description": [
+            "Bootstrap beinhaltet mehrere vordefinierte Farben für Buttons. Die Klasse <code>btn-danger</code> ist die Farbe die du verwenden kannst, um deine Nutzer vor einer zerstörerischen Aktion zu warnen. Zum Beispiel dem Löschen des Kätzchenphotos.",
+            "Erstelle einen Button mit dem Text \"Delete\" und gib ihm die Klasse <code>btn-danger</code>.",
+            "Beachte, dass die Buttons immernoch die Klassen <code>btn</code> und <code>btn-block</code> benötigen."
+          ]
+        },
         "es": {
           "title": "Advierte a tus usuarios sobre acciones peligrosas",
           "description": [
@@ -810,7 +882,7 @@
           "description": [
             "Bootstrap est livré avec plusieurs couleurs prédéfinies pour les boutons. La classe <code>btn-danger</code> est utilisée pour indiquer aux utilisateurs que le bouton actionne un processus destructif comme supprimer une photo de chat.",
             "Créez un bouton ayant le texte \"Delete\" et donnez lui la classe <code>btn-danger</code>.",
-            "Notez que ces boutons ont toujours besoins des classes <code>btn</code> and <code>btn-block</code>."
+            "Notez que ces boutons ont toujours besoins des classes <code>btn</code> et <code>btn-block</code>."
           ]
         }
       }
@@ -898,6 +970,18 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Verwende das Bootstrap Raster, um Elemente nebeneinander zu setzen",
+          "description": [
+            "Bootstrap verwendet ein reaktionsfähiges Rastersystem, das es einfach macht, Elemente in Zeilen zu setzen und die relative Breite jedes Elements anzugeben. Die meisten Bootstrap Klassen können auf ein <code>div</code> -Element angewendet werden.",
+            "Hier ist ein Schaubild, wie Bootstrap's 12-Spalten-Raster-Layout funktioniert:",
+            "<a href=\"https://v4-alpha.getbootstrap.com/layout/grid/#example-stacked-to-horizontal\" target=\"_blank\"><img class=\"img-responsive\" src=\"//i.imgur.com/FaYuui8.png\" title=\"Click to view in the Bootstrap documentation\" alt=\"an image illustrating Bootstrap's grid system\"></a>",
+            "Beachte, dass in diesem Schaubild die Klasse <code>col-md-*</code> verwendet wird. Hier bedeutet <code>md</code> Mittel, und <code>*</code> ist eine Zahl, die angibt, wie viele Spalten breit das Element sein soll. In diesem Fall wird die Spaltenbreite eines Elements auf einem mittelgroßen Bildschirm, wie z. B. einem Laptop, definiert.",
+            "In der Cat Photo App verwenden wir <code>col-xs-*</code>, wo <code>xs</code> extra klein bedeutet (z.B. ein extra kleiner Handy-Bildschirm), und <code>*</code> gibt die Spaltenbreite an (von 1-12).",
+            "Setze die <code>Like</code>, <code>info</code> und <code>Delete</code> Buttons nebeneinander, indem du sie alle drei in einem <code>&#60;div class=\"row\"&#62;</code> Element verschachtelst. Setze danach jeden einzelnen in ein <code>&#60;div class=\"col-xs-4\"&#62;</code> Element.",
+            "Die Klasse <code>row</code> wird auf ein <code>div</code> Element angewendet, und die Buttons werden darin verschachtelt."
+          ]
+        },
         "es": {
           "title": "Usa la cuadrícula de Bootstrap para poner elementos lado a lado",
           "description": [
@@ -1014,6 +1098,16 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Entferne CSS und ersetze es durch Bootstrap",
+          "description": [
+            "Wir können unseren Code sauberer machen und für unsere Cat Photo App die Bootstrap eigenen Stile verwenden, anstatt der benutzerdefinierten Stile, die wir vorher erstellt haben. Dadurch wirkt die App mehr zeitgemäß.",
+            "Mach dir keine Sorgen, es wird genug Zeit geben, unser CSS später anzupassen.",
+            "Lösche die <code>.red-text</code>, <code>p</code>, und <code>.smaller-image</code> CSS Deklarationen aus deinem <code>style</code> Element, so dass die einzigen Deklarationen, die in deinem <code>style</code> Element verbleiben, <code>h2</code> und <code>thick-green-border</code> sind.",
+            "Lösche dann das <code>p</code> Element, das einen toten Link enthält. Dann entferne die Klasse  <code>red-text</code> aus deinem <code>h2</code> Element und ersetze sie durch die Bottstrap Klasse <code>text-primary</code>.",
+            "Entferne zum Schluss die \"smaller-image\" Klasse aus deinem ersten <code>img</code> Element und ersetze sie durch die Klasse <code>img-responsive</code>."
+          ]
+        },
         "es": {
           "title": "Reemplaza el CSS personalizado por Bootstrap",
           "description": [
@@ -1031,7 +1125,7 @@
             "Ne vous inquiétez pas - nous auront beaucoup de temps pour personnaliser notre CSS plus tard.",
             "Supprimez les déclarations CSS <code>.red-text</code>, <code>p</code>, et <code>.smaller-image</code> de votre élément <code>style</code> pour que les seules déclarations restantes dans l'élément <code>style</code> soient <code>h2</code> et <code>thick-green-border</code>.",
             "Ensuite supprimez l'élément <code>p</code> contenant un lien fantôme. Puis enlevez la classe <code>red-text</code> de votre élément <code>h2</code> et remplacez la par la classe Bootstrap <code>text-primary</code>",
-            "Enfin, enlevez la classe \"smaller-image\" dde votre premier élément <code>img</code> et remplacez le par la classe <code>img-responsive</code>."
+            "Enfin, enlevez la classe \"smaller-image\" de votre premier élément <code>img</code> et remplacez le par la classe <code>img-responsive</code>."
           ]
         }
       }
@@ -1114,6 +1208,18 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Verwende Bereiche (Spans) für \"Inline\" Elemente",
+          "description": [
+            "Du kannst Bereiche verwenden, um Inline Elemente zu erstellen. Erinnerst du dich daran, wie wir die Klasse <code>btn-block</code> verwendet haben, so dass der Button über die gesamte Zeilenbreite ging?",
+            "Dieses Schaubild veranschaulicht den Unterschied zwischen <code>inline</code> Elementen und Elementen auf <code>block-level</code>:",
+            "<a href=\"//i.imgur.com/O32cDWE.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/O32cDWE.png\" title=\"Click to enlarge\" alt=\"An \"inline\" button is as small as the text it contains. In this image, it's centered. Below it is a \"block-level\" button, which stretches to fill the entire horizontal space.'></a>",
+            "Durch die Verwendung des <code>span</code> Elements kannst du mehrere Elemente zusammenfügen und sogar verschiedene Teile des gleichen Elements anders gestalten.",
+            "Setze das Wort \"love\" in deinem \"Things cats love\" Element innerhalb eines <code>span</code> Elementes. Dann gib diesem <code>span</code> Element die Klasse <code>text-danger</code>, um den Text rot zu färben.",
+            "So sieht das ganze mit dem \"Top 3 things cats hate\" Element aus:",
+            "<code>&#60;p&#62;Top 3 things cats &#60;span class=\"text-danger\"&#62;hate:&#60;/span&#62;&#60;/p&#62;</code>"
+          ]
+        },
         "es": {
           "title": "Usa span para elementos en línea",
           "description": [
@@ -1218,6 +1324,19 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle eine benutzerdefinierte Überschrift",
+          "description": [
+            "Wir werden eine einfache Überschrift für unsere Cat Photo App erstellen, indem wir den Titel und das relaxing cat Photo in die gleiche Reihe setzen.",
+            "Erinnere dich. Bootstrap verwendet ein reaktionsfähiges Rastersystem, das es einfach macht, Elemente in Zeilen zu setzen und die relative Breite jedes Elements anzugeben. Die meisten Bootstrap-Klassen können auf ein <code>div</code> Element angewendet werden.",
+            "Hier nochmal das Schaubild, wie Bootstrap's 12-Spalten-Raster-Layout funktioniert:",
+            "<a href=\"//i.imgur.com/FaYuui8.png\" data-lightbox=\"img-enlarge\"><img class=\"img-responsive\" src=\"//i.imgur.com/FaYuui8.png\" title=\"Click to enlarge\" alt=\"an image illustrating Bootstrap's grid system\"></a>",
+            "Beachte, dass in diesem Schaubild die Klasse <code>col-md-*</code> verwendet wird. Hier bedeutet <code>md</code> Mittel, und <code>*</code> ist eine Zahl, die angibt, wie viele Spalten breit das Element sein soll. In diesem Fall wird die Spaltenbreite eines Elements auf einem mittelgroßen Bildschirm, wie z. B. einem Laptop, definiert.",
+            "In der Cat Photo App verwenden wir <code>col-xs-*</code>, wo <code>xs</code> extra klein bedeutet (z.B. ein extra kleiner Handy-Bildschirm), und <code>*</code> gibt die Spaltenbreite an (von 1-12).",
+            "Setze dein erstes Bild und dein <code>h2</code> Element in ein einzelnes <code>&#60;div class=\"row\"&#62;</code> Element. Setze nun dein <code>h2</code> Element in ein <code>&#60;div class=\"col-xs-8\"&#62;</code> Element und dein Photo in ein <code>&#60;div class=\"col-xs-4\"&#62;</code> Element, so dass sie in der gleichen Zeile liegen.",
+            "Siehst du, wie das Bild nun genau die richtige Größe hat, um hinter den Text zu passen?"
+          ]
+        },
         "es": {
           "title": "Crea un encabezado personalizado",
           "description": [
@@ -1333,6 +1452,18 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Füge deinen Buttons Font Awesome Icons hinzu",
+          "description": [
+            "Font Awesome ist eine nützliche Bibliothek aus Icons. Diese Icons sind Vektorgrafiken, die im <code>.svg</code>Dateiformat gespeichert sind. Sie werden wie Fonts behandelt. Du kannst ihre Größe in Pixeln angeben, und sie werden die Schriftgröße ihrer übergeordneten HTML Elemente übernehmen.",
+            "Du kannst Font Awesome jeder App hinzufügen, indem du folgenden Code an die Spitze deiner HTML stellst:",
+            "<code>&#60;link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\"/&#62;</code>",
+            "Hier haben wir dies für dich bereits hinter den Kulissen erledigt.",
+            "Das <code>i</code> Element wurde ursprünglich verwendet, um andere Elemente kursiv zu machen. Inzwischen wird es auch häufig für Icons verwendet. Du fügst die Font Awesome Klassen dem <code>i</code> Element hinzu, um es zu einem Icon zu machen:",
+            "<code>&lt;i class=\"fa fa-info-circle\"&gt;&lt;/i&gt;</code>",
+            "Verwende Font Awesome, um deinem Like Button ein <code>thumbs-up</code> Icon hinzuzufügen. Füge dafür ein <code>i</code> Element mit den Klassen <code>fa</code> und <code>fa-thumbs-up</code> ein."
+          ]
+        },
         "es": {
           "title": "Agrega iconos de Font Awesome a los botones",
           "description": [
@@ -1352,7 +1483,7 @@
             "Vous poyvez ajouter Font Awesome à n'importe quell application en ajoutant le code suivant en haut de votre HTML:",
             "<code>&#60;link rel=\"stylesheet\" href=\"//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css\"/&#62;</code>",
             "Ici, nous l'avons déjà ajouté pour vous dans le back-office.",
-            "La balise <code>i</code> eétait utilisé à la base pour mettre les autres éléments en italique, mais maintenant elle est utilisée pour les icones. Vous ajoutez des classes Font Awesome à un élément <code>i</code> pour les les transformer en icones, par exemple:",
+            "La balise <code>i</code> était utilisé à la base pour mettre les autres éléments en italique, mais maintenant elle est utilisée pour les icones. Vous ajoutez des classes Font Awesome à un élément <code>i</code> pour les les transformer en icones, par exemple:",
             "<code>&lt;i class=\"fa fa-info-circle\"&gt;&lt;/i&gt;</code>",
             "Utilisez Font Awesome pour ajouter un icone <code>thumbs-up</code> à votre bouton de like en lui donnant un élément <code>i</code> ayant les classes <code>fa</code> et <code>fa-thumbs-up</code>."
           ]
@@ -1440,6 +1571,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Füge allen deinen Buttons Font Awesome Icons hinzu",
+          "description": [
+            "Font Awesome ist eine nützliche Bibliothek aus Icons. Diese Icons sind Vektorgrafiken, die im <code>.svg</code>Dateiformat gespeichert sind. Sie werden wie Fonts behandelt. Du kannst ihre Größe in Pixeln angeben, und sie werden die Schriftgröße ihrer übergeordneten HTML Elemente übernehmen.",
+            "Verwende Font Awesome, um deinem Info Button ein <code>info-circle</code> Icon hinzuzufügen. Verwende Font Awesome, um deinem Delete Button ein <code>trash</code> Icon hinzuzufügen."
+          ]
+        },
         "es": {
           "title": "Agrega Font Awesome a todos los botones",
           "description": [
@@ -1537,6 +1675,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Mach die Radio Buttons anpassungsfähig",
+          "description": [
+            "Du kannst Bootstraps <code>col-xs-*</code> Klassen auch auf <code>form</code> Elemente anwenden. Auf diese Weise werden unsere Radio Buttons gleichmäßig auf die Seitenbreite verteilt, unabhängig davon, wie hoch die Bildschirmauflösung ist.",
+            "Setze alle deine Radio Buttons in ein <code>&#60;div class=\"row\"&#62;</code> Element. Danach jeden einzelnen in ein <code>&#60;div class=\"col-xs-6\"&#62;</code> Element."
+          ]
+        },
         "es": {
           "title": "Crea botones de opción con estilo adaptativo",
           "description": [
@@ -1640,6 +1785,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Mach deine Checkboxen anpassungsfähig",
+          "description": [
+            "Du kannst Bootstraps <code>col-xs-*</code> Klassen auch auf <code>form</code> Elemente anwenden. Auf diese Weise werden unsere Radio Buttons gleichmäßig auf die Seitenbreite verteilt, unabhängig davon, wie hoch die Bildschirmauflösung ist.",
+            "Setze alle deine Checkboxen in ein <code>&#60;div class=\"row\"&#62;</code> Element. Danach jede einzelne in ein <code>&#60;div class=\"col-xs-4\"&#62;</code> Element."
+          ]
+        },
         "es": {
           "title": "Crea casillas de selección con estilo adaptativo",
           "description": [
@@ -1651,8 +1803,7 @@
           "title": "Donnez un style responsive à vos checkbox (cases de séléction)",
           "description": [
             "Vous pouvez aussi utiliser la classe Bootstrap <code>col-xs-*</code> sur des éléments <code>form</code>! Comme ça, nos boutons radio serons disposés régulierement dans la page, quelle que soit la largeur de l'écran.",
-            "You can use Bootstrap's <code>col-xs-*</code> classes on <code>form</code> elements, too! This way, our checkboxes will be evenly spread out across the page, regardless of how wide the screen resolution is.",
-            "Nichez toustes vos checkbox dans un élément <code>&#60;div class=\"row\"&#62;</code>. Ensuite nichez chacun d'entre eux dans un élément <code>&#60;div class=\"col-xs-4\"&#62;</code>"
+            "Nichez toutes vos checkbox dans un élément <code>&#60;div class=\"row\"&#62;</code>. Ensuite nichez chacun d'entre eux dans un élément <code>&#60;div class=\"col-xs-4\"&#62;</code>"
           ]
         }
       }
@@ -1754,6 +1905,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Gestalte Texteingaben mit der Form Control Klasse",
+          "description": [
+            "Du kannst deinem Submit Button das Font Awesome Icon <code>fa-paper-plane</code> hinzufügen, indem du ihm <code>&#60;i class=\"fa fa-paper-plane\"&#62;&#60;/i&#62;</code> hinzufügst.",
+            "Gib deinem Text Input Feld die Klasse <code>form-control</code>. Füge deinem Submit Button die Klassen <code>btn btn-primary</code> hinzu. Füge ihm außerdem das Font Awesome Icon <code>fa-paper-plane</code> hinzu."
+          ]
+        },
         "es": {
           "title": "Estiliza cajas de texto como controles de formulario",
           "description": [
@@ -1867,6 +2025,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Mach Form Elemente mit Bootstrap anpassungsfähig",
+          "description": [
+            "Jetzt bringen wir dein <code>input</code> Element und deinen Submit <code>button</code> in die gleiche Zeile. Das machen wir genauso wie bisher. Indem wir ein <code>div</code> Element mit der Klasse <code>row</code>, und andere <code>div</code> Elemente mit der Klasse <code>col-xs-*</code> verwenden.",
+            "Setze dein <code>input</code> Element und deinen Submit <code>button</code> in ein <code>div</code> Element mit der Klasse <code>row</code>. Setze dein <code>input</code> Element in ein <code>div</code> Element mit der Klasse <code>col-xs-7</code>. Setze deinen Submit <code>button</code> in ein <code>div</code> Element mit der Klasse <code>col-xs-5</code>.",
+            "Dies ist die letzte Herausforderung, die wir für unsere Cat Photo App machen werden. Wir hoffen, dass es dir Spass gemacht hat Font Awesome, Bootstrap und anpassungsfähiges Design zu lernen!"
+          ]
+        },
         "es": {
           "title": "Alínea elementos de formulario de forma adaptativa con Bootstrap",
           "description": [
@@ -1909,6 +2075,15 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle eine Bootstrap Überschrift",
+          "description": [
+            "Lass uns nun etwas von Grund auf erstellen, um deine HTML-, CSS- und Bootstrap-Fähigkeiten zu trainieren.",
+            "Wir erstellen ein jQuery Projekt, dass wir danach in den jQuery Herausforderungen nutzen werden.",
+            "Erstelle hierfür zunächst <code>h3</code> Element, mit dem Text <code>jQuery Playground</code>.",
+            "Färbe dein <code>h3</code> Element mit der Bootstrap Klasse <code>text-primary</code> ein und zentriere es mit der <code>text-center</code> Klasse."
+          ]
+        },
         "es": {
           "title": "Crea un encabezado con Bootstrap",
           "description": [
@@ -1949,6 +2124,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Füge deiner Seite ein div Element mit der Bootstrap Klasse Container Fluid hinzu",
+          "description": [
+            "Jetzt stellen wir sicher, dass alle Inhalte auf deiner Seite anpassungsfähig sind.",
+            "Setze dafür dein <code>h3</code> Element in ein <code>div</code> Element mit der Klasse <code>container-fluid</code>."
+          ]
+        },
         "es": {
           "title": "Aloja la página dentro de un elemento Div contenedor fluido de Bootstrap",
           "description": [
@@ -1988,6 +2170,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle eine Bootstrap Zeile",
+          "description": [
+            "Jetzt erstellen wir eine Bootstrap Zeile für deine Inline Elemente.",
+            "Erstelle ein <code>div</code> Element unterhalb des <code>h3</code> Elements, mit der Klasse <code>row</code>."
+          ]
+        },
         "es": {
           "title": "Crea una fila en Bootstrap",
           "description": [
@@ -2027,6 +2216,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Teile deine Bootstrap Zeile auf",
+          "description": [
+            "Teile deine Bootstrap Zeile nun in zwei Spalten auf, um deine Elemente unterzubringen.",
+            "Erstelle zwei <code>div</code> Elemente innerhalb deiner Zeile, beide mit der Klasse <code>col-xs-6</code>."
+          ]
+        },
         "es": {
           "title": "Parte tu fila en Bootstrap",
           "description": [
@@ -2071,6 +2267,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle Bootstrap Well Elemente",
+          "description": [
+            "Bootstrap besitzt eine <code>well</code> Klasse, die ein visuelles Gefühl der Tiefe für deine Spalten vermittelt.",
+            "Füge jeweils ein <code>div</code> Element mit der Klasse <code>well</code> innerhalb deiner  <code>col-xs-6</code> <code>div</code> Elemente ein."
+          ]
+        },
         "es": {
           "title": "Crea pozos en Bootstrap",
           "description": [
@@ -2123,6 +2326,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Füge deinen Well Elementen Buttons hinzu",
+          "description": [
+            "Inzwischen hast du mehrere <code>div</code> Elemente in jeder Spalte deiner Zeile. Das sind erstmal genug. Jetzt kannst du ihnen <code>button</code> Elemente hinzufügen.",
+            "Füge jeweils drei <code>button</code> Elemente innerhalb deiner <code>well</code> <code>div</code> Elemente ein."
+          ]
+        },
         "es": {
           "title": "Agrega elementos dentro de los pozos de Bootstrap",
           "description": [
@@ -2174,6 +2384,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Wende den Standard Bootstrap Button Stil an",
+          "description": [
+            "Bootstrap beinhaltet eine weitere Button Klasse mit dem Namen <code>btn-default</code>.",
+            "Wende sowohl die <code>btn</code>, als auch die <code>btn-default</code> Klasse auf jedes deiner <code>button</code> Elemente an."
+          ]
+        },
         "es": {
           "title": "Aplica el estilo de botón predeterminado de Bootstrap",
           "description": [
@@ -2224,6 +2441,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Erstelle die Klasse Target für jQuery Selektoren",
+          "description": [
+            "Nicht jede Klasse muss zugehörige CSS haben. Manchmal erstellen wir Klassen nur für den Zweck, die Elemente leichter mit jQuery auswählen zu können.",
+            "Füge jedem deiner <code>button</code> Elemente die Klasse <code>target</code> hinzu."
+          ]
+        },
         "es": {
           "title": "Crea una clase para usar con selectores de jQuery",
           "description": [
@@ -2279,6 +2503,17 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Füge deinen Bootstrap Elementen ID Attribute hinzu",
+          "description": [
+            "Erinnere diche daran, dass du zusätzlich zu den Klassen, jedem deiner Elemente auch ein <code>id</code> Attribut geben kannst.",
+            "Jede ID für ein Element muss einmalig sein und darf pro Seite nur einmal verwendet werden.",
+            "Gib jedem deiner <code>div</code> Elemente der Klasse <code>well</code> eine eindeutige ID.",
+            "Hier ein Beispiel:",
+            "<code>&#60;div class=\"well\" id=\"center-well\"&#62;</code>",
+            "Gib dem linken Well Element die ID <code>left-well</code>. Gib dem rechten Well Element die ID <code>right-well</code>."
+          ]
+        },
         "es": {
           "title": "Asígnales atributos de identificación (id) a tus elementos de Bootstrap",
           "description": [
@@ -2343,6 +2578,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Beschrifte deine Well Elemente",
+          "description": [
+            "Beschrifte beide Well Elemente mit ihrer ID für eine bessere Übersichtlichkeit.",
+            "Füge über deinem linken Well Element, innerhalb deines <code>col-xs-6</code> <code>div</code> Elements, ein <code>h4</code> Element mit dem Text <code>#left-well</code> hinzu.",
+            "Füge über deinem rechen Well Element, innerhalb deines <code>col-xs-6</code> <code>div</code> Elements, ein <code>h4</code> Element mit dem Text <code>#right-well</code> hinzu."
+          ]
+        },
         "es": {
           "title": "Etiqueta tus pozos de Bootstrap",
           "description": [
@@ -2403,6 +2646,14 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Gib jedem Element eine eindeutige ID",
+          "description": [
+            "Wir wollen auch in der Lage sein, mit jQuery jeden Button durch seine eigene ID finden zu können.",
+            "Gib jedem deiner Buttons eine eindeutige ID, beginnend mit <code>target1</code> bis hin zu <code>target6</code>.",
+            "Stelle sicher, dass <code>target1</code> bis <code>target3</code> in <code>#left-well</code>, und <code>target4</code> bis <code>target6</code> in <code>#right-well</code> liegen."
+          ]
+        },
         "es": {
           "title": "Dale a cada elemento un ID único",
           "description": [
@@ -2462,6 +2713,13 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Beschrifte deine Buttons",
+          "description": [
+            "So wie wir unsere Wells beschriftet haben, wollen wir auch unsere Buttons beschriften.",
+            "Füge jedem deiner <code>button</code> Elemente eine Beschriftung hinzu, die seiner <code>id</code> entspricht."
+          ]
+        },
         "es": {
           "title": "Etiqueta los botones con Bootstrap",
           "description": [
@@ -2519,6 +2777,15 @@
       "type": "waypoint",
       "challengeType": 0,
       "translations": {
+        "de": {
+          "title": "Verwende Kommentare um Code klarer zu gestalten",
+          "description": [
+            "Wenn wir mit jQuery beginnen, werden wir HTML Elemente verändern, ohne sie direkt in HTML ändern zu müssen.",
+            "Lass uns sicherstellen, dass jeder weiß, dass er diesen Code nicht direkt ändern sollte.",
+            "Denk daran, dass du einen Kommentar mit <code>&#60;!--</code> beginnen und mit <code>--&#62;</code> beenden kannst.",
+            "Füge einen Kommentar an die Spitze deiner HTML ein, der lautet: <code>Only change code above this line.</code>"
+          ]
+        },
         "es": {
           "title": "Usa elementos para explicar tu código",
           "description": [
